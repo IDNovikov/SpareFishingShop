@@ -1,0 +1,174 @@
+/* .mobileWindow {
+  position: absolute;
+  z-index: 99999999;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+.modalWrapper {
+  position: fixed;
+  z-index: 99999999999;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  top: 0;
+  left: 0;
+}
+.modalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 58px;
+  padding: 0px 8px;
+  gap: 0px;
+  background-color: white;
+}
+
+.modalTittle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "IBM Plex Sans";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.modalClose {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  width: 50px;
+  height: 58px;
+}
+.search {
+  all: unset;
+  margin-top: 15px;
+  width: calc(100% - 40px);
+  height: 42px;
+  gap: 12px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  border: 1px solid #e0dddd;
+  opacity: 0px;
+  background-color: white;
+}
+.search::placeholder {
+  all: unset;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #636363;
+}
+.radio {
+  all: unset;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #f5f5f5;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.radio:checked {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #2d2d2d;
+  background-color: #2d2d2d;
+  background-image: url("../../../assets/Checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.modal {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 72px;
+  overflow-y: auto;
+}
+.mmodal {
+  width: 100%;
+  max-height: calc(100% + 40px);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 72px;
+  overflow-y: auto;
+  padding: 0 20px;
+  overflow-y: auto;
+}
+.holder {
+  width: 100%;
+  height: auto;
+  padding: 24px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #e9eaea;
+  opacity: 0px;
+  box-shadow: 0px 0px 8px 0px #00000014;
+  margin: 10px 0px;
+  background-color: white;
+}
+button {
+  all: unset;
+}
+.endBsk {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+.center {
+  align-self: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.punkt {
+  display: flex;
+  padding: 15px 0;
+  border-bottom: 1px solid #2d2d2d;
+}
+.back {
+  margin-left: 15px;
+  scale: 1.5;
+}
+.break {
+  border: 1px solid #00b907;
+}
+.none {
+  display: none;
+}
+@media (min-width: 600px) {
+  .modalWrapper {
+    position: absolute;
+    z-index: 99999999999999999;
+    width: 600px;
+    height: 70vh;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 79px;
+  }
+  .modal {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 72px;
+    overflow-y: auto;
+  }
+}

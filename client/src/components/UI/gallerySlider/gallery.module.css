@@ -1,0 +1,14 @@
+.img {
+  margin: auto;
+  max-width: 200px;
+}
+.DivImg {
+  height: auto;
+  width: auto;
+}
+
+.main {
+  height: 300px;
+  background-color: black;
+  user-select: none;
+}

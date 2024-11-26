@@ -1,0 +1,28 @@
+.main {
+  max-width: 724px;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.mainModal {
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  background-color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.main div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+}

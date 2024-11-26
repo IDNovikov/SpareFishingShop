@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  font-family: "IBM Plex Sans";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  width: 100vw;
+  text-align: left;
+  gap: 10px;
+  padding: 17px;
+}
+
+.items {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #a9a9a9;
+  width: 70px;
+}
+.filterBar {
+  height: auto;
+  width: 300px;
+  flex: 0 0 300px;
+}
+.filterBarMob {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100vw;
+  padding: 0 17px;
+}
+.filterBtn {
+  all: unset;
+}
+.menuNavActive {
+  display: flex;
+}
+.menuNav {
+  display: none;
+}
+.menuSearchActive {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+.menuSearch {
+  display: none;
+}
+.search {
+  all: unset;
+  width: 220px;
+  height: 42px;
+  gap: 12px;
+  padding: 0px 20px;
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #636363;
+  opacity: 0px;
+}
+.search::placeholder {
+  all: unset;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #636363;
+}
+.searchBtn {
+  all: unset;
+  display: flex;
+
+  align-items: center;
+  width: 48px;
+  height: 42px;
+  gap: 12px;
+  border-radius: 0px 8px 8px 0px;
+  border-top: 1px solid #636363;
+  border-bottom: 1px solid #636363;
+  border-right: 1px solid #636363;
+  opacity: 0px;
+}
+.btnLupa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18.21px;
+  height: 18.21px;
+  fill: black;
+  background-color: white;
+}
+.NavList {
+  height: 100%;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "IBM Plex Sans";
+  margin: 0px;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavList {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 40px 0px 40px 20px;
+}
+
+.NavItem {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2d2d2d;
+  display: flex;
+  justify-content: space-between;
+  font-family: "IBM Plex Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #2d2d2d;
+  margin: 20px 15px;
+}
+
+@media (max-width: 750px) {
+  .tittleText {
+    font-size: 70px;
+    font-weight: 200;
+    line-height: 60px;
+  }
+  .NavList {
+    padding: 40px 20px 40px 20px;
+  }
+}

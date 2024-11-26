@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.dropMenu {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.checkbox {
+  all: unset;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #f5f5f5;
+  border: 3px solid black;
+  border-radius: 4px;
+}
+
+.checkbox:checked {
+  border: 3px solid black;
+  background-color: black;
+  background-image: url("../../assets/shape.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding: 0;
+}
+.arrow {
+  display: table-cell;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  transform: rotate(0deg);
+  transition: transform 0.2s linear;
+}
+.rewerse {
+  display: table-cell;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  transform: rotate(180deg);
+  transition: transform 0.2s linear;
+}
+.menuButtom {
+  font-family: "IBM Plex Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  display: block;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: #636363;
+}
+
+.dropMenuList {
+  display: none;
+  transition: transform 1s linear;
+}
+
+.dropMenuListDropped {
+  width: 100%;
+  max-width: 270px;
+  height: max-content;
+  color: black;
+  border-radius: 20px;
+  margin-top: 15px;
+  padding: 0;
+  list-style-type: none;
+  transform: translateY(0);
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropMenuItem {
+  display: flex;
+
+  align-items: center;
+  padding: 16px 0px;
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.drop_menu_item:hover {
+  list-style-type: disc;
+}

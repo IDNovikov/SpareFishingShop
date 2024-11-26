@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.item {
+  margin: 30px 30px;
+  width: max-content;
+  border: 1px solid #c6c6c6;
+}
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}

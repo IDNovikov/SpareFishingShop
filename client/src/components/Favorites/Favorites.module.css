@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.mobileWindow {
+  position: fixed;
+  z-index: 99999999;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modalWrapper {
+  position: fixed;
+  z-index: 99999999999;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5f5f5;
+  top: 0;
+  left: 0;
+}
+
+.none {
+  display: none;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 58px;
+  padding: 0px 8px;
+  gap: 0px;
+  background-color: white;
+}
+
+.modalTittle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "IBM Plex Sans";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.modalClose {
+  margin-left: auto;
+  cursor: pointer;
+  display: flex;
+  width: 50px;
+  height: 58px;
+}
+.modalClose img {
+  scale: 1;
+}
+.modal {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 72px;
+  overflow-y: auto;
+}
+.item {
+  padding: 7px 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 7px;
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #e9eaea;
+  background-color: white;
+}
+.Image {
+  width: auto;
+  max-width: 118px;
+  height: 166px;
+  gap: 0px;
+  border: 1px solid #e9eaea;
+  opacity: 0px;
+}
+
+.Price {
+  padding-bottom: 5px;
+  font: bold;
+  font-family: "IBM Plex Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.Brand {
+  padding-bottom: 5px;
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #636363;
+}
+.Name {
+  padding-bottom: 5px;
+  font-family: "IBM Plex Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.basket {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  padding-bottom: 4px;
+  gap: 10px;
+  margin-right: 5px;
+}
+.heart {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  padding-bottom: 4px;
+  gap: 10px;
+  margin-right: 8px;
+}
+
+@media (min-width: 600px) {
+  .modalWrapper {
+    position: absolute;
+    z-index: 99999999999999999;
+    width: 600px;
+    height: 70vh;
+    background-color: white;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 79px;
+  }
+  .modal {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 72px;
+    overflow-y: auto;
+  }
+}

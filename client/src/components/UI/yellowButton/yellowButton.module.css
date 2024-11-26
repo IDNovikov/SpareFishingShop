@@ -1,0 +1,26 @@
+.button {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  opacity: 0px;
+  background: #fff500;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  border: 2px solid black;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: #e0d900;
+}
+
+.button:active {
+  border: 2px solid #e7342b;
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+.mainItem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 162px;
+  min-height: 316px;
+  max-width: 249px;
+  max-height: 456px;
+  padding: 0px 0px 4px 0px;
+  gap: 4px;
+  opacity: 0px;
+  height: 100%;
+  aspect-ratio: 1/2;
+  margin: 0 auto;
+}
+.mainModal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  min-width: 162px;
+  max-width: 150px;
+  padding: 0px 0px 4px 0px;
+  gap: 4px;
+  opacity: 0px;
+  height: max-content;
+  aspect-ratio: 1/2;
+  border: 1px solid #a8a8a8;
+}
+.inner {
+  display: flex;
+  height: max-content;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Heart {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  gap: 10px;
+  position: absolute;
+  top: 5%;
+  right: 8%;
+}
+.Image {
+  padding-bottom: 5px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.Price {
+  padding-bottom: 5px;
+  font: bold;
+  font-family: "IBM Plex Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #2d2d2d;
+}
+.Brand {
+  padding-bottom: 5px;
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #636363;
+}
+
+.Name {
+  padding-bottom: 5px;
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #2d2d2d;
+  width: 70%;
+  word-wrap: break-word;
+}

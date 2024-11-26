@@ -1,0 +1,24 @@
+.main {
+  max-width: 724px;
+  width: auto;
+  height: auto;
+  padding: 16px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.slider {
+  height: auto;
+  position: relative;
+}
+
+.arrow {
+  top: 15px;
+  left: 15px;
+}

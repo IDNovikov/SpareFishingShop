@@ -1,0 +1,57 @@
+.item {
+  padding: 7px 10px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 7px;
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #e9eaea;
+  background-color: white;
+}
+.Image {
+  width: auto;
+  max-width: 118px;
+  height: 166px;
+  gap: 0px;
+  border: 1px solid #e9eaea;
+  opacity: 0px;
+}
+
+.Price {
+  padding-bottom: 5px;
+  font: bold;
+  font-family: "IBM Plex Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.Brand {
+  padding-bottom: 5px;
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: #636363;
+}
+.Name {
+  padding-bottom: 5px;
+  font-family: "IBM Plex Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.basket {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  padding-bottom: 4px;
+  gap: 10px;
+  margin-right: 5px;
+}

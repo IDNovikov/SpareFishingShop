@@ -1,0 +1,53 @@
+.main {
+  max-width: 724px;
+  width: auto;
+  height: auto;
+  padding: 22px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.slider {
+  height: auto;
+  position: relative;
+}
+
+.arrow {
+  top: 15px;
+  left: 15px;
+}
+.Heart {
+  width: 30px;
+  height: 30px;
+  gap: 10px;
+}
+.about {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+}
+.about div {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 1075px) {
+  .main {
+    max-width: 1100px;
+    width: auto;
+    height: auto;
+    padding: 22px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+  }
+}
